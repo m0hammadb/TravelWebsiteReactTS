@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./styles/Header.css";
 import RoundLinkButton from "./RoundLinkButton";
 
 const HeaderSection = () => {

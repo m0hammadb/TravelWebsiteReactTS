@@ -1,0 +1,6 @@
+@import "../../Assets/styles/_colors";
+
+.glow-text{
+    color: $mainYellow;
+    text-shadow: 1px 1px 10px $mainYellow;
+}

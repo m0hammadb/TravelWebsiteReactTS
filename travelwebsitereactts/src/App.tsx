@@ -4,8 +4,9 @@ import HomeView from './Views/HomeView';
 
 function App() {
   return (
-    <div className="App p-5">
-       <HomeView />
+      <div className="App p-5">
+          
+        <HomeView />
     </div>
   );
 }

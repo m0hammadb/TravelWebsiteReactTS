@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -39,5 +41,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+      <script src="assets/js/jquery-3.7.0.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
+
+      <script>
+
+          $(document).ready(function () {
+              $(".owl-carousel").owlCarousel({
+                  items: 3,
+                  rewindNav: false
+              });
+          });
+      </script>
   </body>
 </html>

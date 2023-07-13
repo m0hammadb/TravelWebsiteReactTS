@@ -14,5 +14,9 @@
   {
     "outputFile": "src/Components/buttons.css",
     "inputFile": "src/Components/buttons.scss"
+  },
+  {
+    "outputFile": "src/Components/styles/Trip.css",
+    "inputFile": "src/Components/styles/Trip.scss"
   }
 ]

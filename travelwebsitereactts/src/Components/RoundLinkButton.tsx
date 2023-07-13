@@ -1,4 +1,4 @@
-import "./buttons.css";
+import "./styles/buttons.css";
 
 
 const RoundLinkButton = (props: { url: string, name: string, glowing?: boolean}) => {

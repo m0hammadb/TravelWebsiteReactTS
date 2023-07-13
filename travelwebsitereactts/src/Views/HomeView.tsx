@@ -1,5 +1,6 @@
 import HeaderSection from "../Components/HeaderSection";
 import NavBar from "../Components/NavBar";
+import TripsSection from "../Components/TripsSection";
 
 const HomeView = () => {
     return <>
@@ -10,6 +11,10 @@ const HomeView = () => {
 
                 <HeaderSection />
             </header>
+
+            <section className="mt-[100px] w-[80%] mx-auto">
+                <TripsSection />
+            </section>
         </div>
     </>
 };
