@@ -4,10 +4,18 @@
   border: 2px solid white;
   text-align: center;
   border-radius: 30px;
+  transition: 1s;
+}
+.round-button:hover {
+  background-color: white;
+  color: black;
 }
 
 .btn-glow {
   background-color: #ffc200;
   border-color: #ffc200;
   box-shadow: 1px 15px 50px #ffc200;
+}
+.btn-glow:hover {
+  box-shadow: 1px 0px 50px #ffc200;
 }

@@ -1,1 +1,1 @@
-﻿.round-button{width:200px;padding:10px 0;border:2px solid #fff;text-align:center;border-radius:30px;}.btn-glow{background-color:#ffc200;border-color:#ffc200;box-shadow:1px 15px 50px #ffc200;}
+﻿.round-button{width:200px;padding:10px 0;border:2px solid #fff;text-align:center;border-radius:30px;transition:1s;}.round-button:hover{background-color:#fff;color:#000;}.btn-glow{background-color:#ffc200;border-color:#ffc200;box-shadow:1px 15px 50px #ffc200;}.btn-glow:hover{box-shadow:1px 0 50px #ffc200;}

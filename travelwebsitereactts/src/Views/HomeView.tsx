@@ -12,7 +12,7 @@ const HomeView = () => {
                 <HeaderSection />
             </header>
 
-            <section className="mt-[100px] w-[80%] mx-auto">
+            <section className="mt-[100px] lg:w-[80%] w-full mx-auto">
                 <TripsSection />
             </section>
         </div>

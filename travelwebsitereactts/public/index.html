@@ -50,7 +50,22 @@
           $(document).ready(function () {
               $(".owl-carousel").owlCarousel({
                   items: 3,
-                  rewindNav: false
+                  rewindNav: false,
+                  responsive: {
+                      0: {
+                          items: 1,
+                          nav: true
+                      },
+                      1100: {
+                          items: 2,
+                          nav: true,
+                          loop: false
+                      },
+
+                      1280: {
+                          items:3
+                      }
+                  }
               });
           });
       </script>

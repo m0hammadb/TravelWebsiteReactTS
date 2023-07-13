@@ -12,7 +12,7 @@ const Trip = () => {
             </div>
 
             <div className="">
-                <span className="glow-text">0$</span>
+                <span className="glow-text">994.99$</span>
             </div>
         </div>
 
