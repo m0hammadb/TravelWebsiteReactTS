@@ -1,0 +1,19 @@
+@import "../Assets/styles/_colors";
+
+
+.header-section {
+    padding: 50px 0px;
+    background-image: url('../Assets/png/DOTS DESIGN.png');
+    background-size: 1300px 400px;
+    background-repeat: no-repeat;
+    
+}
+
+.yellow-text {
+    color: $mainYellow;
+}
+
+
+.glowing-header {
+    text-shadow: 1px 1px 10px #ffffff56;
+}

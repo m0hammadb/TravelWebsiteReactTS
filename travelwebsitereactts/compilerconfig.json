@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "src/Components/Header.css",
+    "inputFile": "src/Components/Header.scss"
+  },
+  {
+    "outputFile": "src/Assets/styles/_colors.css",
+    "inputFile": "src/Assets/styles/_colors.scss"
+  },
+  {
+    "outputFile": "src/Assets/styles/buttons.css",
+    "inputFile": "src/Assets/styles/buttons.scss"
+  },
+  {
+    "outputFile": "src/Components/buttons.css",
+    "inputFile": "src/Components/buttons.scss"
+  }
+]
