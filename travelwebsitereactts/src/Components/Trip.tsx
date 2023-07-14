@@ -27,13 +27,13 @@ const Trip = (props: {
             <p><span className="text-main-yellow">{props.from}</span> to <span className="text-main-yellow">{ props.to }</span> </p>
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center justify-even">
             <div>
 
-                <FontAwesomeIcon fontSize={10} icon={faLocationDot} />
+                <FontAwesomeIcon fontSize={15} icon={faLocationDot} />
             </div>
-            <div className="mb-1 ms-3"><p className="text-[20px] tracking-[15px]">..........</p></div>
-            <div className="ms-3 mt-1"><p className="text-[14px]">{ props.duration }</p></div>
+            <div className="ms-3 dotted w-[70%]"></div>
+            <div className="ms-3"><p className="text-[14px]">{ props.duration }</p></div>
         </div>
 
         <div className="flex gap-5 justify-between">
