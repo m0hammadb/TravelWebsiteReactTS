@@ -1,6 +1,29 @@
 import { faMagnifyingGlass, faPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import "../Components/styles/Nav.css";
+
+interface IMenuItem {
+    title: string,
+    url: string
+};
+
+const items: IMenuItem[] = [{
+    title: "Home",
+    url: "/"
+}, {
+    title: "Explore",
+    url: "/Explore"
+}, {
+    title: "About Us",
+    url: "/About"
+}, {
+    title: "Contact Us",
+    url: "/Contact"
+    }];
+
+
+
 const NavBar = () => {
     return <div className="navbar">
         <div className="flex justify-between">
@@ -11,10 +34,13 @@ const NavBar = () => {
 
             <div className="menu-items font-[500]">
                 <ul className="flex gap-[100px]">
-                    <li>Home</li>
-                    <li>Explore</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
+                    {
+                        items.map(item => {
+                            return <li key={item.url}>
+                                <a className="duration-700 hover:text-main-yellow" href={item.url}>{ item.title }</a> 
+                            </li>
+                        })
+                    }
                     <li><FontAwesomeIcon fontSize={20} icon={faMagnifyingGlass} /></li>
                 </ul>
             </div>

@@ -22,5 +22,9 @@
   {
     "outputFile": "src/Components/styles/buttons.css",
     "inputFile": "src/Components/styles/buttons.scss"
+  },
+  {
+    "outputFile": "src/Components/styles/Nav.css",
+    "inputFile": "src/Components/styles/Nav.scss"
   }
 ]
